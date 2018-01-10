@@ -1,0 +1,73 @@
+{
+  "name": "btcnano-p2p",
+  "version": "0.1.0",
+  "description": "Interface to the btcnano P2P network for btcnano",
+  "author": "Jack chen <278910933@qq.com>",
+  "main": "index.js",
+  "scripts": {
+    "lint": "gulp lint",
+    "test": "gulp test:node",
+    "coverage": "gulp coverage",
+    "build": "gulp"
+  },
+  "contributors": [
+    {
+      "name": "Jack chen",
+      "email": "jackchen1615@gmail.com"
+    },
+    {
+      "name": "Yemel Jardi",
+      "email": "yemel@bitpay.com"
+    },
+    {
+      "name": "Braydon Fuller",
+      "email": "braydon@bitpay.com"
+    },
+    {
+      "name": "Ryan X. Charles",
+      "email": "ryan@bitpay.com"
+    },
+    {
+      "name": "Eric Martindale",
+      "email": "eric@bitpay.com"
+    },
+    {
+      "name": "Philip Hutchins",
+      "email": "philip@bitpay.com"
+    },
+    {
+      "name": "Manuel Araoz",
+      "email": "maraoz@bitpay.com"
+    },
+    {
+      "name": "Esteban Ordano",
+      "email": "eordano@gmail.com"
+    },
+    {
+      "name": "Elichai Turkel"
+    }
+  ],
+  "keywords": [
+    "btcnano",
+    "bitcoin",
+    "bitcore"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bitcoinnano/btcnano-p2p.git"
+  },
+  "dependencies": {
+    "btcnano-lib": "^0.1.0",
+    "bloom-filter": "^0.2.0",
+    "buffers": "^0.1.1",
+    "socks5-client": "^0.3.6"
+  },
+  "devDependencies": {
+    "btcnano-build": "git://github.com/bitcoinnano/btcnano-build.git",
+    "brfs": "^1.2.0",
+    "chai": "~1.10.0",
+    "gulp": "^3.8.10",
+    "sinon": "^1.12.2"
+  },
+  "license": "MIT"
+}
